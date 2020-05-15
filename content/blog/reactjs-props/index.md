@@ -6,7 +6,7 @@ description: "Props in ReactJS"
 
 This is my first post on Props in ReactJS! How exciting!
 
-import React, { useEffect, useContext } from "react"
+<!-- import React, { useEffect, useContext } from "react"
 import { Link } from "react-router-dom"
 import DispatchContext from "../DispatchContext"
 import StateContext from "../StateContext"
@@ -39,7 +39,7 @@ Sign Out
 )
 }
 
-export default HeaderLoggedIn
+export default HeaderLoggedIn -->
 
 I'm sure I'll write a lot more interesting things in the future.
 
