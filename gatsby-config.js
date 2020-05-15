@@ -31,6 +31,16 @@ module.exports = {
       options: {
         plugins: [
           {
+            resolve: `gatsby-remark-embed-snippet`,
+            options: {
+              directory: `${__dirname}`
+            }
+          },
+          {
+            resolve: `gatsby-remark-prismjs`,
+            options: {}
+          },
+          {
             resolve: `gatsby-remark-images`,
             options: {
               maxWidth: 590
@@ -81,4 +91,3 @@ module.exports = {
     // `gatsby-plugin-offline`,
   ]
 }
-
