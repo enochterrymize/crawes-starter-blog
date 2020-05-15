@@ -33,7 +33,7 @@ module.exports = {
           {
             resolve: `gatsby-remark-embed-snippet`,
             options: {
-              directory: `${__dirname}/content/blog`
+              directory: `${__dirname}/content/blog/snippets`
             }
           },
           {
