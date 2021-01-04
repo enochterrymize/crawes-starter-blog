@@ -1,18 +1,32 @@
 ---
-title: Schema Definition Language ?
-date: "2021-01-04T22:10:40.284Z"
-description: "SDL"
+title: useReducer ?
+date: "2021-01-04T22:11:20.284Z"
+description: "useReducer"
 ---
 
-SDL is a language to write GRAPHQL SCHEMA.
+Two Hooks that are used for modern state management in React: useState and useReducer
 
-> Type
-> It has name and can implement one or more interfaces
+> Reducer in React
+> The following function is a reducer function for managing state for a list of items:
 
 ```
-type Post implements Item {
-
+const todoReducer = (state, action) =>{
+    switch (action.type){
+        case 'DO_TODO':
+        return { ...todo, complete:true};
+    } else {
+        return todo;
+    }
+});
+case 'UNDO_TODO':
+return { ...todo, complete:false};
+} else {
+    return todo;
 }
+});
+default:
+return state;
+
 ```
 
 > Fields
