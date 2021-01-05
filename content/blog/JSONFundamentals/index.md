@@ -6,17 +6,17 @@ description: "JSON"
 
 #JSON
 
-# JavaScript Object Notation
+### JavaScript Object Notation
 
-# Simple and popular format
+### Simple and popular format
 
-# Used to exchange data over the APIs
+### Used to exchange data over the APIs
 
-# its a set of key value pairs enclosed in curly braces.
+### its a set of key value pairs enclosed in curly braces.
 
-# each key is enclosed in double qoutes.
+### each key is enclosed in double qoutes.
 
-# each value can be string, number, array , object.
+### each value can be string, number, array , object.
 
 ```
 {
