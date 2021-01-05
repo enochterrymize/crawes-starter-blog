@@ -114,3 +114,17 @@ code.
 
 Next, Open the base GRAPHQL Schema genereated by cli.
 update the schema to the following and save it
+
+# Amazon Cognito
+
+It handles authentication and identity
+
+Identity management scenarios
+Business to Consumer, Business to Business, Business to Employee, IOT Scenarios
+
+Cognito User Pools
+. Managed user directory
+. Provides profiles to manage users
+. Sign-up and Sign-in user flows
+. Provides OpenID Connect and OAuth2.0 standard tokens
+. Priced per monthly active user
