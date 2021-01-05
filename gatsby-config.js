@@ -8,8 +8,8 @@ module.exports = {
     description: `A blog teaching How I reacted to React.`,
     siteUrl: `https://crawes.site/`,
     social: {
-      Twitter: `enochterrymize`,
-      Linkedin: `www.linkedin.com/in/enoch-terry-mize-george-muller-37b71435`
+      twitter: `enochterrymize`,
+      linkedin: `www.linkedin.com/in/enoch-terry-mize-george-muller-37b71435`
     }
   },
   plugins: [
