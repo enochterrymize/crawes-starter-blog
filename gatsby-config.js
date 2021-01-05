@@ -3,7 +3,7 @@ module.exports = {
     title: `I Reacted`,
     author: {
       name: `Enoch Terry Mize`,
-      summary: `I am Full Stack Developer based in Germany. I create and improve existing websites. Creator and owner of Digiternum.I have experience with JavaScript, Gatsby, React Native, Serverless, Google Analytics, Google Tag Manager, AWS. I love learning and doing. I share the Good what I learn in and through my Journey..`
+      summary: `I am Full Stack Developer based in Germany. I create and improve existing websites. Creator and owner of www.co-founder.dev and www.onedaywebsite.de.I have experience with JavaScript, Gatsby, React Native, Serverless, Google Analytics, Google Tag Manager, AWS. I love learning and doing. I share the Good what I learn in and through my Journey..`
     },
     description: `A blog teaching How I reacted to React.`,
     siteUrl: `https://crawes.site/`,
