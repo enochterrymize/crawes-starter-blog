@@ -1,7 +1,7 @@
 ---
-title: Amplify+AppSync ?
-date: "2021-01-04T22:09:03.284Z"
-description: "Amplify+AppSync"
+title: AmplifyAppSync
+date: "2021-04-04T22:09:03.284Z"
+description: "AmplifyAppSync"
 ---
 
 In this tutorial we will be learning about AppSync - Graphql service and i realise that Amplify and Appsync integrates so well.
@@ -49,44 +49,59 @@ class App extends React.Component{
 
 ![Serverless App](./serverless.png)
 
-> Here is an example of GraphQL Schema:
-> Schema consist of base types(data models) and GraphQL operations like query fetching data, mutuation for creating and deleting data; and subscription for changes in real time
-> DD
+> Graphql TRANSFORM
+> It creates the backend for you, It connects and creates databse
 
 ```
-# base type
-type todo{
-    id:ID
-    name: String
-    completed:Boolean
-}
-# Query definitions
-type Query {
-    getTodo(id:ID): Todo
-    listTodos: [Todo]
-}
-# Mutation definitions
-type Mutation {
-    createTodo(input: Todo): Todo
+type Post
+@model {
+    id: ID!
+    content: String
+    description: String
+    ups:Int
+    downs:Int
 }
 
-# Subscription definitions
-type Subscriptions{
-    onCreateTodo: Todo
-}
 ```
 
-# GraphQL Operations
+we have a post model and when you update the amplify it will create the appsync and create queries and mutation
 
-GraphQL Operaions are how you interact with the API data sources. GraphQL operations can be similarly mapped to HTTP methods for RESTFul APIs
-GET -> QUERY
-PUT -> MUTATIONS
-POST -> MUTATIONS
-DELETE -> MUTATIONS
-PATCH -> MUTATIONS
+```
+type Post
+@model
+@auth(rules: [{allow: owner}])
+{
+    id: ID!
+    content: String
+    description: String
+    ups:Int
+    downs:Int
+}
 
-> AWS APP SYNC
-> App Sync is a managed servie that allows us to deploy a GRAPHQL API, resolvers and data sources quickly and easily using the Amplify cli.
+```
+
+a directive called @auth, we can set rules that it allows only allows the owner, that will hook with coginito to check the user as owner.
+
+@searchable
+a direvtive elastic search
+
+# Getting started with Amplify
+
+```
+npx create-react-app image-library-appsync
+cd
+npm start
+amplify init
+
+npm install aws-amplify @aws-amplify/ui-react
+code.
+// In app.js, add the import of aws configure and amplify
+
+```
+
+> COGNITO
+> Adding security in your application.
+> Authentication to our application,
 
 # Creating a GRAPHQL API
 
