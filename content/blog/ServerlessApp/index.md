@@ -62,3 +62,4 @@ PATCH -> MUTATIONS
 ~ amplify add api
 
 Next, Open the base GRAPHQL Schema genereated by cli.
+update the schema to the following and save it 

@@ -27,6 +27,11 @@ So javascript by its very nature is a synchronous language and that basically me
 
 So for example in a javascript file we could have three statements and each statement is run in turn.
 
+```
+console.log("one")
+
+```
+
 Now line 2 cannot stop before line 1 is finished and Line 3 cannot start before line 2 is finished so it executes these one at a time in order.
 
 Now you might hear javascript being called a single threaded language and that essentially means the same thing a thread is like an audit sequence of statements and only one of those statements can run at a time.
@@ -69,13 +74,10 @@ So this is a downfall of synchronous code.
 
 And this is where asynchronous code comes into play to help us out so we know that running our functions
 
-synchronicity when it comes to task that takes some time to complete is probably then not the best way
+synchronicity when it comes to task that takes some time to complete is probably then not the best way to work right.
 
-to work right.
-
-So remember the definition I first gave you of asynchronous code to start something now and finish it
-
-later.
+So remember the definition I first gave you of asynchronous code 
+// to start something now and finish it later.
 
 This is the pattern we generally want to follow when boring tasks that take some time to do like network
 
