@@ -3,7 +3,7 @@ module.exports = {
     title: `<ENOCH />`,
     author: {
       name: `Hi I'm ENOCH TERRY MIZE.`,
-      summary: `I am Full Stack Developer living in Germany. I create website and Mobile Apps. I love learning and doing and writing. I will share the Good what I am learning now and gained experience skills from 8+ years of exceptional learning, performance and quality experience in technical fields and challenging technical projects..`,
+      summary: `I am Full Stack Developer living in Germany. I create website and Mobile Apps. I love learning and doing and writing. I will write about Full Stack Modern Application development and best practises and also my gained skills from 8+ years of exceptional learning, performance and quality experience in technical projects..`,
       expertise:`REACT NATIVE, AWS, and GraphQL`
     },
     description: `A blog teaching How I reacted to React.`,
