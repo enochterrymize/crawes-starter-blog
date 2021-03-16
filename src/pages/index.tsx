@@ -3,6 +3,7 @@ import React from "react"
 import { PageProps, Link, graphql } from "gatsby"
 
 import Bio from "../components/bio"
+import Project from "../components/project"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm } from "../utils/typography"
@@ -38,6 +39,10 @@ const BlogIndex = ({ data, location }: PageProps<Data>) => {
     <Layout location={location} title={siteTitle}>
       <SEO title="All posts" />
       <Bio />
+      <h3>PROJECTS (2020/21) </h3>
+      <Project />
+     
+      <h3>RECENT LEARNINGS & WRITINGS </h3>
       {posts.map(({ node }) => {
         const title = node.frontmatter.title || node.fields.slug
         return (
@@ -74,7 +79,7 @@ export const pageQuery = graphql`
   query {
     site {
       siteMetadata {
-        title
+        title,
       }
     }
     allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {

@@ -1,15 +1,17 @@
 module.exports = {
   siteMetadata: {
-    title: `I Reacted`,
+    title: `<ENOCH />`,
     author: {
-      name: `Enoch Terry Mize`,
-      summary: `I am Full Stack Developer based in Germany. I create websites and Mobile Apps. Creator and owner of co-founder.dev and onedaywebsite.de. I have experience with JavaScript, Gatsby, React Native, Serverless, Google Analytics, Google Tag Manager, AWS. I love learning and doing. I share the Good what I learn in and through my Journey..`
+      name: `Hi I'm ENOCH TERRY MIZE.`,
+      summary: `I am Full Stack Developer living in Germany. I create website and Mobile Apps. I love learning and doing and writing. I share the Good what I learn in and through my Journey..`,
+      expertise:`REACT NATIVE, AWS, and GraphQL`
     },
     description: `A blog teaching How I reacted to React.`,
-    siteUrl: `https://crawes.site/`,
+    siteUrl: `https://enochterrymize.com/`,
+    category: `Project`,
     social: {
       twitter: `enochterrymize`,
-      linkedin: `www.linkedin.com/in/enoch-terry-mize-george-muller-37b71435`
+      linkedin: `enoch-terry-mize-george-muller-37b71435`
     }
   },
   plugins: [

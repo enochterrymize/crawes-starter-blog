@@ -1,0 +1,1 @@
+module.exports = require("/Volumes/Terry HD/workspace/projects_gatsby/ireacted/src/utils/typography")

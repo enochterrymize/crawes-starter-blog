@@ -1,6 +1,6 @@
 ---
 title: Authentication
-date: "2021-04-04T22:09:03.284Z"
+date: "2021-06-01T22:09:03.284Z"
 description: "AWS Cognito"
 ---
 
@@ -52,9 +52,47 @@ you can create and configure Amazon Cognito services directly from the Amplify C
 3. Create the Amplify porject
 
 To begin, open your terminal and create a new react APP
-~ npx
 
-> AUTHENTICATION
+```
+npx create-react-app try-authentication
+cd try-authentication
+// To install the AWS Amplify and React Router and Ant Design
+npm install aws-amplify @aws-amplify/ui-react antd react-router-dom
+```
+
+##### Initialize a new Amplify Project
+
+> amplify init
+
+##### Add Auth Service in your project
+
+> amplify add auth
+
+##### Deploy
+
+> amplify push
+
+#### Client Authentication Overview
+
+AUTH class
+Amplify client library exposes an AUTH class with methods to allow you to handle everything associated with user management,
+Auth.signup, Auth.signin and Auth.signout
+
+Using this class, you can create a comoletely custom authentication flow based on your applications requirements. and you habe to manage all of the styling and application state yourself.
+
+Firstly we try out the higher order component from the AWS Amplify library called withAuthenticator
+
+#### Building the App
+
+##### Creating the Folder structure
+
+creating the following files in src
+container.js
+nav.js
+profile.js
+protected.js
+public.js
+router.js
 
 ```
 // import React Component
