@@ -9,8 +9,17 @@ Initial HTML+JS+CSS
 1. Basic view:
 
 ```mermaid
-sequeneDiagram
+sequenceDiagram
    participant client
    participant NextCloud: GET .../apps/testapp
    NextCloud-->Client: html, js, css
+```
+
+2. Advanced View: App Framework
+
+```mermaid
+sequenceDiagram
+participant Client
+participant NextCloudENV
+Client-->NextCloudENV: GET .../apps/testapp
 ```
