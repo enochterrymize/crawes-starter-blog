@@ -63,10 +63,90 @@ Normal Communication
 Client request and Server Reponse, but in case of chat we need instance communication, basically there is a link between them is bidrectional, this link is websocket. Basically establishing bidirectional commuinication with other entity, it can server or peer.
 
 ```
-Install Node js
+//Setting up Web environment
 
-node -v
-
-node
 
 ```
+
+## webrtc Protocol
+
+WEBRTC STEPS:
+
+## Signaling Protocol
+
+### SDP : Session Description Protocol
+
+## Connecting Protocol
+
+### ICE : Interactive Connectivity Establishment
+
+## Security Protocol
+
+### DTLS : Datagram Transport Layer Security
+
+### SRTP : Secure Real-Time Transport Protocol
+
+## Communication protocols
+
+### RTP: Real-Time Transport Protocol
+
+### SCTP: Stream Control Transmission Protocol
+
+### RTCP : Real-time Transport Control Protocol
+
+# SDP : Session Description Protocols
+
+key = Value Every
+
+# ICE : Interactive Connectivity Establishment
+
+TURN Server
+
+ICE server attempts to connect the two peer.
+
+RTP: Real time Protocol
+RTCP : It listens, whenever someone is listening, it will check the silence, dont waster the bandwidth, there is no information to send, it use to measure the bandwidth and the packet strength. Transfer of Audio Stream
+
+RTP containes the packet and RTCP contains the statiscial information.
+
+## SCTP
+
+Stream Control Transmittion Protocol
+
+Why we use SCTP,
+
+1. Real-time network Games.
+2. Text Chat
+3. Asset Message
+
+DTLS and SRTP
+
+Security Protocols
+
+Video Call are transmitted, You dont want to any hacker, how do we secure, w
+
+Datagram Transport Layer Security
+
+we create the certificate. its is encrypted and is secured.
+
+There are encyrption
+
+NAT TRAVERSAL
+
+Network Address Translate.
+
+Each device had their own IP Address. we dont need an unique address, we had IPV4 2:16, Router as 1 public address, this will connect to the communicate outside world. then we had IPV6 2:32
+
+How the Internet works. You are searching something in Search Server.
+
+How does the Router handles
+
+ROUTER creates NAT table
+
+ping google.com
+
+Nat tables does the mapping.
+
+## Protocols in Action
+
+

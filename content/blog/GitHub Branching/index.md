@@ -1,7 +1,7 @@
 ---
-title: NextCloud Developer
+title: Github
 date: "2020-05-01T22:12:03.284Z"
-description: "Getting Started as NextCloud Developer"
+description: "Branching"
 ---
 
 ### docker run -d -p 8080:80 -p 2222:22 --name "nextcloud" nextcloud
@@ -22,14 +22,12 @@ description: "Getting Started as NextCloud Developer"
 
 > docker start NextCloud
 
-> docker exec -it nxtcloud bash 
+> docker exec -it nxtcloud bash
 
 > service ssh start
 
+> chsh www-data
 
->chsh www-data
-
->/bin/bash 
+> /bin/bash
 
 > passwd www-data
-
